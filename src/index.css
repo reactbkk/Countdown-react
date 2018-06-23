@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: Metropolis, sans-serif;
   background-color: rgb(0, 0, 0);
-  color:white;
+  color: white;
   text-align: center;
 }
 
@@ -11,47 +11,54 @@ body {
 }
 
 .App-header {
-  background-color: #00D7FF;
-  padding: 20px;
+  border-bottom: 20px solid #00d7ff;
   color: white;
 }
 
-.App-header .title{
+.App-header .title {
   margin-top: 40px;
 }
 
-.App-header a{
+.App-header a {
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  transition: .2s all;
+  transition: 0.2s all;
 }
-.App-header a:hover{
-  opacity: .7;
+.App-header a:hover {
+  opacity: 0.7;
 }
 
-.githubIcon{
+.App-header img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.githubIcon {
   height: 30px;
   margin-right: 5px;
 }
 
-.Countdown{
-  margin: 10px auto;
+.Countdown {
+  margin: 80px auto 10px;
   padding-bottom: 20px;
 }
 
-.Countdown-col{
+.Countdown-col {
   display: inline-block;
 }
 
-.Countdown-col-element{
+.Countdown-col-element {
   display: inline-block;
-  margin: 0 20px;
-  display: flex;
-  flex-direction: column;
+  vertical-align: top;
+  margin: 0 10px;
+  text-align: center;
+  font-size: 60px;
 }
 
-.Countdown-col-element strong{
-  font-size: 50px;
+.Countdown-col-element strong {
+  font-size: 300px;
+  display: block;
 }
