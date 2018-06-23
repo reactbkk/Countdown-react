@@ -15,7 +15,7 @@ class App extends Component {
       if (!countdown) {
         const defaultDate = new Date()
         defaultDate.setMinutes(defaultDate.getMinutes() + 20)
-        countDownRef.set(defaultDate.toISOString())
+        countDownRef.set(defaultDate.toString())
         return
       }
       this.setState({ date: countdown })
